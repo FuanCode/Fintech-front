@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linefont:wght@100&family=Roboto:wght@100&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-login{
+	width: 100vw;
+	height: 100vh;
+	background: #201b2c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-login{
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.left-image{
+	width: 35vw;
+}
+
+.left-login > h1 {
+	font-size: 3vw;
+	color: rgb(245, 129, 228);
+}
+
+.right-login{
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-login{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px 35px;
+	background: rgb(128, 128, 192);
+	border-radius: 20px;
+	box-shadow: 0px 10px 40px rgb(128, 0, 255);
+}
+
+.card-login > h1{
+	color: rgb(245, 129, 228);
+	font-weight: 800;
+	margin: 0;
+}
+.textfield{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 10px 0px;
+}
+
+.textfield > input{
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 15px;
+	background: rgb(146, 227, 169);
+	color: whitesmoke;
+	font-size: 12pt;
+	box-shadow: 0px 10px 40px rgb(128, 0, 255);
+}
+
+.textfield > label{
+	color: whitesmoke;
+	margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+	color: rgb(128, 128, 192);
+}
+
+.bt-login{
+	text-align: center;
+	width: 100%;
+	padding: 16px 0px;
+	margin: 25px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 3px;
+	color:rgb(128, 128, 192);
+	background: rgb(245, 129, 228);
+	cursor: pointer;
+	box-shadow: 0px 10px 40px -12px rgb(131, 252, 213);
+}
+
+@media only screen and (max-width: 950px){
+	.card-login{
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 950px){
+
+	
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

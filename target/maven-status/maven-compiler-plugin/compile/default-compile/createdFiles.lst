@@ -1,0 +1,4 @@
+fintec\bean\Transferencia.class
+fintec\dao\TransferenciaDAO.class
+fintec\singleton\ConnectionManager.class
+fintec\exception\DBException.class
